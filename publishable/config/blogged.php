@@ -1,7 +1,7 @@
 <?php
 
-use BinaryTorch\Blogged\Http\Middleware\Authorize;
-use BinaryTorch\Blogged\Http\Middleware\Authenticate;
+use Jebog\Blogged\Http\Middleware\Authorize;
+use Jebog\Blogged\Http\Middleware\Authenticate;
 
 return [
     /*

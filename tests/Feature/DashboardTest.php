@@ -1,12 +1,12 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests\Feature;
+namespace Jebog\Blogged\Tests\Feature;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
-use BinaryTorch\Blogged\Tests\TestCase;
-use BinaryTorch\Blogged\Models\Article;
-use BinaryTorch\Blogged\Models\Category;
+use Jebog\Blogged\Tests\TestCase;
+use Jebog\Blogged\Models\Article;
+use Jebog\Blogged\Models\Category;
 
 class DashboardTest extends TestCase
 {

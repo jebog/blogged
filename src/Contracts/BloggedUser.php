@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Contracts;
+namespace Jebog\Blogged\Contracts;
 
 interface BloggedUser
 {

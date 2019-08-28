@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Requests;
+namespace Jebog\Blogged\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

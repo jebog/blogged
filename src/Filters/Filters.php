@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Filters;
+namespace Jebog\Blogged\Filters;
 
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Builder;

@@ -1,16 +1,16 @@
 <?php
 
-namespace BinaryTorch\Blogged\Jobs;
+namespace Jebog\Blogged\Jobs;
 
 use Illuminate\Http\Request;
 use Illuminate\Bus\Queueable;
 use Mews\Purifier\Facades\Purifier;
 use Illuminate\Queue\SerializesModels;
-use BinaryTorch\Blogged\Models\Article;
+use Jebog\Blogged\Models\Article;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use BinaryTorch\Blogged\Http\Requests\UpdateArticleFormRequest;
+use Jebog\Blogged\Http\Requests\UpdateArticleFormRequest;
 
 class UpdateArticle
 {

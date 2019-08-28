@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col">
                     <div v-if="isLoading" class="card text-center shadow no-border py-8">
-                        <loader color="#8F8F8F"></loader>        
+                        <loader color="#8F8F8F"></loader>
                     </div>
 
                     <div v-if="! isLoading" class="card shadow no-border pb-2">
@@ -23,18 +23,18 @@
                         <div class="card-body px-5">
                             <div class="form-group mb-4">
                                 <span class="mr-2">Category:</span>
-                                    
+
                                 <div class="btn-group">
-                                    <button type="button" 
-                                    class="btn btn-outline-primary dropdown-toggle" 
-                                    data-toggle="dropdown" 
-                                    aria-haspopup="true" 
+                                    <button type="button"
+                                    class="btn btn-outline-primary dropdown-toggle"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
                                     aria-expanded="false"
                                     v-text="form.category.title"></button>
 
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#" 
-                                            v-for="category in categories" 
+                                        <a class="dropdown-item" href="#"
+                                            v-for="category in categories"
                                             :key="category.slug"
                                             @click.prevent="form.category = category"
                                             >{{ category.title }}</a>
@@ -151,8 +151,8 @@ export default {
     },
     computed: {
         articleImage() {
-            return this.form.image ? this.form.image.url ? this.form.image.url : this.form.image : '/vendor/binarytorch/blogged/assets/new.svg';
-        }  
+            return this.form.image ? this.form.image.url ? this.form.image.url : this.form.image : '/vendor/jebog/blogged/assets/new.svg';
+        }
     },
     created() {
         axios.get('/blogged-api/categories')

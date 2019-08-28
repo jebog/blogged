@@ -1,11 +1,11 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Middleware;
+namespace Jebog\Blogged\Http\Middleware;
 
 use Closure;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Auth\Middleware\Authenticate as BaseAuthenticationMiddleware;
-use BinaryTorch\Blogged\Exceptions\AuthenticationException as BloggedAuthenticationException;
+use Jebog\Blogged\Exceptions\AuthenticationException as BloggedAuthenticationException;
 
 class Authenticate extends BaseAuthenticationMiddleware
 {

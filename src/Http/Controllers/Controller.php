@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Controllers;
+namespace Jebog\Blogged\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

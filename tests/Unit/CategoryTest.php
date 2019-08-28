@@ -1,10 +1,10 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests\Unit;
+namespace Jebog\Blogged\Tests\Unit;
 
-use BinaryTorch\Blogged\Tests\TestCase;
-use BinaryTorch\Blogged\Models\Article;
-use BinaryTorch\Blogged\Models\Category;
+use Jebog\Blogged\Tests\TestCase;
+use Jebog\Blogged\Models\Article;
+use Jebog\Blogged\Models\Category;
 
 class CategoryTest extends TestCase
 {

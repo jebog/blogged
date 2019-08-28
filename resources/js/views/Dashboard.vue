@@ -2,7 +2,7 @@
     <div>
         <!-- statistics -->
         <statistics :data="statistics"></statistics>
-        
+
         <!-- Page content -->
         <div class="container-fluid mt--7">
             <!-- Table -->
@@ -10,7 +10,7 @@
                 <div class="col">
                     <div class="card shadow">
                         <div v-if="! articles.length && ! isLoading" class="text-center my-6">
-                            <img width="300px" src="/vendor/binarytorch/blogged/assets/empty.svg">
+                            <img width="300px" src="/vendor/jebog/blogged/assets/empty.svg">
                             <h2 class="pt-4">No articles found!</h2>
                             <router-link tag="a" to="/articles/new" class="btn btn-primary">
                                 Write New Article
@@ -24,9 +24,9 @@
                                 <i class="ni ni-fat-add"></i> New Article
                             </router-link>
                         </div>
-                        
+
                         <div class="clearfix"></div>
-                        
+
                         <articles v-if="articles.length" :data="articles"></articles>
 
                         <div v-if="isLoading" class="text-center py-4">

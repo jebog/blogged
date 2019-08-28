@@ -1,10 +1,10 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests\Feature;
+namespace Jebog\Blogged\Tests\Feature;
 
 use Illuminate\Support\Facades\Config;
-use BinaryTorch\Blogged\Tests\TestCase;
-use BinaryTorch\Blogged\Models\Article;
+use Jebog\Blogged\Tests\TestCase;
+use Jebog\Blogged\Models\Article;
 
 class ConfigurationTest extends TestCase
 {

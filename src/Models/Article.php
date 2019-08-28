@@ -1,14 +1,14 @@
 <?php
 
-namespace BinaryTorch\Blogged\Models;
+namespace Jebog\Blogged\Models;
 
 use Mews\Purifier\Facades\Purifier;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
-use BinaryTorch\Blogged\Filters\Filterable;
-use BinaryTorch\Blogged\Traits\Authorizable;
-use BinaryTorch\Blogged\Contracts\BloggedUser;
-use BinaryTorch\Blogged\Traits\HasMarkdownParser;
+use Jebog\Blogged\Filters\Filterable;
+use Jebog\Blogged\Traits\Authorizable;
+use Jebog\Blogged\Contracts\BloggedUser;
+use Jebog\Blogged\Traits\HasMarkdownParser;
 
 class Article extends Model
 {

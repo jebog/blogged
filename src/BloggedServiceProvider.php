@@ -1,12 +1,12 @@
 <?php
 
-namespace BinaryTorch\Blogged;
+namespace Jebog\Blogged;
 
 use Gate;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use BinaryTorch\Blogged\Commands\InstallCommand;
-use BinaryTorch\Blogged\Commands\PoliciesCommand;
+use Jebog\Blogged\Commands\InstallCommand;
+use Jebog\Blogged\Commands\PoliciesCommand;
 
 class BloggedServiceProvider extends ServiceProvider
 {
@@ -55,7 +55,7 @@ class BloggedServiceProvider extends ServiceProvider
     protected function webRoutesConfig()
     {
         return [
-            'namespace'  => 'BinaryTorch\Blogged\Http\Controllers',
+            'namespace'  => 'Jebog\Blogged\Http\Controllers',
             'domain'     => config('blogged.domain', null),
             'as'         => 'blogged.',
             'middleware' => 'blogged-front',
@@ -68,7 +68,7 @@ class BloggedServiceProvider extends ServiceProvider
     protected function apiRoutesConfig()
     {
         return [
-            'namespace'  => 'BinaryTorch\Blogged\Http\Controllers',
+            'namespace'  => 'Jebog\Blogged\Http\Controllers',
             'domain'     => config('blogged.domain', null),
             'prefix'     => 'blogged-api',
             'middleware' => 'blogged-back',
@@ -121,7 +121,7 @@ class BloggedServiceProvider extends ServiceProvider
                 "{$publishablePath}/config/blogged.php" => config_path('blogged.php'),
             ],
             'blogged_assets' => [
-                "{$publishablePath}/assets/" => public_path('vendor/binarytorch/blogged/assets'),
+                "{$publishablePath}/assets/" => public_path('vendor/jebog/blogged/assets'),
             ],
             'blogged_views' => [
                 __DIR__.'/../resources/views/partials/sidebar.blade.php' => resource_path('views/vendor/blogged/partials/sidebar.blade.php'),
@@ -150,8 +150,8 @@ class BloggedServiceProvider extends ServiceProvider
         $ns = $this->app->getNamespace();
 
         $policies = [
-            \BinaryTorch\Blogged\Models\Article::class => $ns."Policies\BloggedArticlePolicy",
-            \BinaryTorch\Blogged\Models\Category::class => $ns."Policies\BloggedCategoryPolicy",
+            \Jebog\Blogged\Models\Article::class => $ns."Policies\BloggedArticlePolicy",
+            \Jebog\Blogged\Models\Category::class => $ns."Policies\BloggedCategoryPolicy",
         ];
 
         foreach ($policies as $model => $policy) {

@@ -9,7 +9,7 @@
                 <div class="col">
                     <div class="card shadow text-center no-border py-5">
                         <div class="card-body">
-                            <img width="300px" src="/vendor/binarytorch/blogged/assets/403.svg" alt="Card image">
+                            <img width="300px" src="/vendor/jebog/blogged/assets/403.svg" alt="Card image">
 
                             <h2 class="py-2">Page or resource not found!</h2>
 

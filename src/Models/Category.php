@@ -1,10 +1,10 @@
 <?php
 
-namespace BinaryTorch\Blogged\Models;
+namespace Jebog\Blogged\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
-use BinaryTorch\Blogged\Traits\Authorizable;
+use Jebog\Blogged\Traits\Authorizable;
 
 class Category extends Model
 {

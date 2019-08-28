@@ -1,10 +1,10 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Controllers;
+namespace Jebog\Blogged\Http\Controllers;
 
-use BinaryTorch\Blogged\Models\Article;
-use BinaryTorch\Blogged\Models\Category;
-use BinaryTorch\Blogged\Filters\ArticleFilters;
+use Jebog\Blogged\Models\Article;
+use Jebog\Blogged\Models\Category;
+use Jebog\Blogged\Filters\ArticleFilters;
 
 class BlogController extends Controller
 {

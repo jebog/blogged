@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Filters;
+namespace Jebog\Blogged\Filters;
 
 trait Filterable
 {

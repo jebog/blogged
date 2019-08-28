@@ -1,10 +1,10 @@
 <?php
 
-namespace BinaryTorch\Blogged\Commands;
+namespace Jebog\Blogged\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use BinaryTorch\Blogged\BloggedServiceProvider;
+use Jebog\Blogged\BloggedServiceProvider;
 
 class PoliciesCommand extends Command
 {

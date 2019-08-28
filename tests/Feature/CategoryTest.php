@@ -1,9 +1,9 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests\Feature;
+namespace Jebog\Blogged\Tests\Feature;
 
-use BinaryTorch\Blogged\Tests\TestCase;
-use BinaryTorch\Blogged\Models\Category;
+use Jebog\Blogged\Tests\TestCase;
+use Jebog\Blogged\Models\Category;
 
 class CategoryTest extends TestCase
 {

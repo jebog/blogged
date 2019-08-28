@@ -10,7 +10,7 @@
                 <div class="col">
                     <div class="card shadow">
                         <div v-if="! categories.length && ! isLoading" class="text-center my-6">
-                            <img width="300px" src="/vendor/binarytorch/blogged/assets/empty.svg">
+                            <img width="300px" src="/vendor/jebog/blogged/assets/empty.svg">
                             <h2 class="pt-4">No categories found!</h2>
 
                             <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#new-category">Create New Category</button>
@@ -23,7 +23,7 @@
 
                             <div class="clearfix"></div>
                         </div>
-                        
+
                         <div v-if="categories.length" class="table-responsive">
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
@@ -203,7 +203,7 @@ export default {
                 });
         },
         updateCategory() {
-            axios.put('/blogged-api/categories/' + this.selectedCategory.id, { 
+            axios.put('/blogged-api/categories/' + this.selectedCategory.id, {
                     title: this.selectedCategory.title,
                     slug: this.selectedCategory.slug
                 })

@@ -1,8 +1,8 @@
 <?php
 
-namespace BinaryTorch\Blogged\Traits;
+namespace Jebog\Blogged\Traits;
 
-use BinaryTorch\Blogged\Models\Article;
+use Jebog\Blogged\Models\Article;
 
 trait CanWriteArticles
 {

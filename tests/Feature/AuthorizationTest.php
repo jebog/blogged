@@ -1,11 +1,11 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests\Feature;
+namespace Jebog\Blogged\Tests\Feature;
 
 use Illuminate\Support\Facades\Gate;
-use BinaryTorch\Blogged\Tests\TestCase;
-use BinaryTorch\Blogged\Models\Article;
-use BinaryTorch\Blogged\Tests\Fixture\ArticlePolicy;
+use Jebog\Blogged\Tests\TestCase;
+use Jebog\Blogged\Models\Article;
+use Jebog\Blogged\Tests\Fixture\ArticlePolicy;
 
 class AuthorizationTest extends TestCase
 {

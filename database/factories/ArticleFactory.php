@@ -1,7 +1,7 @@
 <?php
 
-use BinaryTorch\Blogged\Models\Article;
-use BinaryTorch\Blogged\Models\Category;
+use Jebog\Blogged\Models\Article;
+use Jebog\Blogged\Models\Category;
 
 $factory->define(Article::class, function (Faker\Generator $faker) {
     return [

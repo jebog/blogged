@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Traits;
+namespace Jebog\Blogged\Traits;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;

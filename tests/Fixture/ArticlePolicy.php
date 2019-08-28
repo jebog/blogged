@@ -1,5 +1,5 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests\Fixture;
+namespace Jebog\Blogged\Tests\Fixture;
 
 class ArticlePolicy {}

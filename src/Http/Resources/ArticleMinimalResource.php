@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Resources;
+namespace Jebog\Blogged\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

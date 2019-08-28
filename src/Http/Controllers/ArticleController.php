@@ -1,15 +1,15 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Controllers;
+namespace Jebog\Blogged\Http\Controllers;
 
 use Illuminate\Http\Request;
-use BinaryTorch\Blogged\Models\Article;
-use BinaryTorch\Blogged\Jobs\UpdateArticle;
-use BinaryTorch\Blogged\Jobs\CreateNewArticle;
-use BinaryTorch\Blogged\Http\Resources\ArticleResource;
-use BinaryTorch\Blogged\Http\Resources\ArticleMinimalResource;
-use BinaryTorch\Blogged\Http\Requests\CreateArticleFormRequest;
-use BinaryTorch\Blogged\Http\Requests\UpdateArticleFormRequest;
+use Jebog\Blogged\Models\Article;
+use Jebog\Blogged\Jobs\UpdateArticle;
+use Jebog\Blogged\Jobs\CreateNewArticle;
+use Jebog\Blogged\Http\Resources\ArticleResource;
+use Jebog\Blogged\Http\Resources\ArticleMinimalResource;
+use Jebog\Blogged\Http\Requests\CreateArticleFormRequest;
+use Jebog\Blogged\Http\Requests\UpdateArticleFormRequest;
 
 class ArticleController extends Controller
 {

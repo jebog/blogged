@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Traits;
+namespace Jebog\Blogged\Traits;
 
 use ParsedownExtra;
 

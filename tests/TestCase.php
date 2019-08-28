@@ -1,13 +1,13 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests;
+namespace Jebog\Blogged\Tests;
 
 use Mockery;
 use Illuminate\Support\Facades\Config;
 use Mews\Purifier\PurifierServiceProvider;
-use BinaryTorch\Blogged\Tests\Fixture\User;
+use Jebog\Blogged\Tests\Fixture\User;
 use Illuminate\Contracts\Auth\Authenticatable;
-use BinaryTorch\Blogged\BloggedServiceProvider;
+use Jebog\Blogged\BloggedServiceProvider;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class TestCase extends \Orchestra\Testbench\TestCase

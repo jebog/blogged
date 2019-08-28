@@ -8,11 +8,11 @@
             <div class="row">
                 <div class="col">
                     <div v-if="isLoading" class="card text-center shadow no-border py-8">
-                        <loader color="#8F8F8F"></loader>        
+                        <loader color="#8F8F8F"></loader>
                     </div>
 
                     <div v-if="! isLoading" class="card shadow no-border pb-2">
-                        <img class="card-img-top" id="pick-image" :src="form.image ? form.image.url : '/vendor/binarytorch/blogged/assets/new.svg'" alt="Card image">
+                        <img class="card-img-top" id="pick-image" :src="form.image ? form.image.url : '/vendor/jebog/blogged/assets/new.svg'" alt="Card image">
 
                         <image-uploader
                             trigger="#pick-image"
@@ -25,18 +25,18 @@
                         <div class="card-body px-5">
                             <div class="form-group mb-4">
                                 <span class="mr-2">Category:</span>
-                                    
+
                                 <div class="btn-group">
-                                    <button type="button" 
-                                    class="btn btn-outline-primary dropdown-toggle" 
-                                    data-toggle="dropdown" 
-                                    aria-haspopup="true" 
+                                    <button type="button"
+                                    class="btn btn-outline-primary dropdown-toggle"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
                                     aria-expanded="false"
                                     v-text="form.category.title"></button>
 
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#" 
-                                            v-for="category in categories" 
+                                        <a class="dropdown-item" href="#"
+                                            v-for="category in categories"
                                             :key="category.slug"
                                             @click.prevent="form.category = category"
                                             >{{ category.title }}</a>
@@ -137,7 +137,7 @@ export default {
             .then((response) => {
                 if(! response.data.data.length) {
                     this.$toasted.error('Opps! Please make sure you create a category first!');
-                    
+
                     this.$router.push({ name: 'categories' });
                 }
                 this.categories = response.data.data
@@ -170,7 +170,7 @@ export default {
 
                     let action = form.published ? 'published.' : 'saved.'
                     this.$toasted.success('Your article has been ' + action);
-                    
+
                     this.$router.push({ name: 'dashboard' });
                 }).catch((errors) => {
                     this.$toasted.error('Opps! Please make sure the entered data is valid.');

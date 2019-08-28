@@ -3,7 +3,7 @@
 namespace App\Policies;
 
 use App\User;
-use BinaryTorch\Blogged\Models\Category;
+use Jebog\Blogged\Models\Category;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 /*

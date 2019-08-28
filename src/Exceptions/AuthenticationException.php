@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Exceptions;
+namespace Jebog\Blogged\Exceptions;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Auth\AuthenticationException as BaseAuthenticationException;

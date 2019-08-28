@@ -1,9 +1,9 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Controllers;
+namespace Jebog\Blogged\Http\Controllers;
 
 use Illuminate\Http\Request;
-use BinaryTorch\Blogged\Models\Article;
+use Jebog\Blogged\Models\Article;
 
 class ImageController extends Controller
 {

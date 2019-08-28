@@ -1,10 +1,10 @@
 <?php
 
-namespace BinaryTorch\Blogged\Commands;
+namespace Jebog\Blogged\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Process;
-use BinaryTorch\Blogged\BloggedServiceProvider;
+use Jebog\Blogged\BloggedServiceProvider;
 
 class InstallCommand extends Command
 {

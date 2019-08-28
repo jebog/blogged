@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Tests\Fixture;
+namespace Jebog\Blogged\Tests\Fixture;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;

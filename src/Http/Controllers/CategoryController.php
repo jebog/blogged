@@ -1,9 +1,9 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Controllers;
+namespace Jebog\Blogged\Http\Controllers;
 
 use Illuminate\Http\Request;
-use BinaryTorch\Blogged\Models\Category;
+use Jebog\Blogged\Models\Category;
 
 class CategoryController extends Controller
 {

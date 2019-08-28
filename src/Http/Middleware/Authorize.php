@@ -1,6 +1,6 @@
 <?php
 
-namespace BinaryTorch\Blogged\Http\Middleware;
+namespace Jebog\Blogged\Http\Middleware;
 
 class Authorize
 {

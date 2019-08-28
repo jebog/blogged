@@ -29,19 +29,19 @@
     },
     "autoload": {
         "psr-4": {
-            "BinaryTorch\\Blogged\\": "src/"
+            "Jebog\\Blogged\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BinaryTorch\\Blogged\\Tests\\": "tests/"
+            "Jebog\\Blogged\\Tests\\": "tests/"
       }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "BinaryTorch\\Blogged\\BloggedServiceProvider"
+                "Jebog\\Blogged\\BloggedServiceProvider"
             ]
         }
     }

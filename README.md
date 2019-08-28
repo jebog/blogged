@@ -1,5 +1,5 @@
 <h6 align="center">
-    <img width="200" src="https://larecipe.binarytorch.com.my/images/blogged.svg"/>
+    <img width="200" src="https://larecipe.jebog.com.my/images/blogged.svg"/>
 </h6>
 
 <h2 align="center">
@@ -21,15 +21,15 @@
 
 # Blogged 🖍
 
-**Blogged** is a carefully designed Laravel package provides an easy way to create a beautiful blog like [this](https://blogged.binarytorch.com.my/blog) inside your normal Laravel projects. It lives besides your code project's code base without interacting with it. It comes with a beautiful looking user interface which is highly configurable to fit your need.
+**Blogged** is a carefully designed Laravel package provides an easy way to create a beautiful blog like [this](https://blogged.jebog.com.my/blog) inside your normal Laravel projects. It lives besides your code project's code base without interacting with it. It comes with a beautiful looking user interface which is highly configurable to fit your need.
 
-![blogged](https://blogged.binarytorch.com.my/blogged-showcase.png)
+![blogged](https://blogged.jebog.com.my/blogged-showcase.png)
 
 ## Get Started
 
 ☝️ Install the package via composer.
 
-    composer require binarytorch/blogged
+    composer require jebog/blogged
 
 ✌️ Run the install command.
 
@@ -37,7 +37,7 @@
 
 Visit your app domain with `/blog` endpoint. That's it.
 
-#### See [full documentation and demo](https://blogged.binarytorch.com.my/docs)
+#### See [full documentation and demo](https://blogged.jebog.com.my/docs)
 
 ## License
 

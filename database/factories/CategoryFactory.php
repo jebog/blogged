@@ -1,6 +1,6 @@
 <?php
 
-use BinaryTorch\Blogged\Models\Category;
+use Jebog\Blogged\Models\Category;
 
 $factory->define(Category::class, function (Faker\Generator $faker) {
     return [

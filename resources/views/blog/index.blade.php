@@ -7,7 +7,7 @@
 
         <!-- Header -->
         <div class="header bg-primary py-8"></div>
-        
+
         <!-- Page content -->
         <section class="section">
             <div class="container" style="margin-top: -100px">
@@ -31,7 +31,7 @@
                             </div>
                         @empty
                             <div class="card shadow no-border">
-                                <img class="card-img-top" width="100%" src="/vendor/binarytorch/blogged/assets/new.svg" alt="Card image cap">
+                                <img class="card-img-top" width="100%" src="/vendor/jebog/blogged/assets/new.svg" alt="Card image cap">
 
                                 <div class="card-body text-center">
                                     <article>
@@ -41,7 +41,7 @@
                             </div>
                         @endforelse
                     </div>
-    
+
                     @if(config('blogged.ui.sidebar'))
                         <div class="col-md-4">
                             @include('blogged::partials.sidebar')
